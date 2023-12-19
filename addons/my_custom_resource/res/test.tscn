@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://d4hcoxtbcx2ky"]
+
+[ext_resource type="Script" path="res://addons/my_custom_resource/src/Test.cs" id="1_clkxd"]
+[ext_resource type="Texture2D" uid="uid://x46e60ctenln" path="res://icon.svg" id="1_suxu6"]
+
+[node name="Test" type="Node" node_paths=PackedStringArray("loadButton", "target")]
+script = ExtResource("1_clkxd")
+loadButton = NodePath("Button")
+target = NodePath("Sprite")
+
+[node name="Sprite" type="Sprite2D" parent="."]
+texture = ExtResource("1_suxu6")
+
+[node name="Button" type="Button" parent="."]
+offset_right = 74.0
+offset_bottom = 31.0
+text = "Load"

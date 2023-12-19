@@ -1,35 +1,68 @@
-[gd_resource type="Resource" script_class="CustomResourceArray" load_steps=6 format=3 uid="uid://cub3vwtj55307"]
+[gd_resource type="Resource" script_class="CustomResourceArray" load_steps=13 format=3 uid="uid://cub3vwtj55307"]
 
 [ext_resource type="Script" path="res://addons/my_custom_resource/src/CustomResource.cs" id="1_7d4ee"]
 [ext_resource type="Script" path="res://addons/my_custom_resource/src/CustomResourceArray.cs" id="2_c0sdb"]
 
-[sub_resource type="Resource" id="Resource_mk6no"]
-script = ExtResource("1_7d4ee")
-IntProp = 0
-FloatProp = 0.0
-BoolProp = false
-StringProp = ""
-Vector2Prop = Vector2(0, 0)
-ColorProp = Color(0, 0, 0, 0)
+[sub_resource type="Curve" id="Curve_6uqfa"]
 
-[sub_resource type="Resource" id="Resource_474kx"]
+[sub_resource type="Resource" id="Resource_8l2cn"]
 script = ExtResource("1_7d4ee")
-IntProp = 0
-FloatProp = 0.0
-BoolProp = false
-StringProp = ""
-Vector2Prop = Vector2(0, 0)
-ColorProp = Color(0, 0, 0, 0)
+IntProp = 1828324318
+FloatProp = 0.927673
+BoolProp = true
+StringProp = "82bb2b40-6d85-4361-9c85-918626a8c350"
+Vector2Prop = Vector2(343.716, 365.466)
+ColorProp = Color(0.745417, 0.493124, 0.115663, 1)
+CurveProp = SubResource("Curve_6uqfa")
 
-[sub_resource type="Resource" id="Resource_3cb84"]
+[sub_resource type="Curve" id="Curve_d1opl"]
+
+[sub_resource type="Resource" id="Resource_h5crk"]
 script = ExtResource("1_7d4ee")
-IntProp = 0
-FloatProp = 0.0
+IntProp = -1247659674
+FloatProp = 0.913337
+BoolProp = true
+StringProp = "08185286-1071-4b4f-b355-f4175dfcd31b"
+Vector2Prop = Vector2(818.86, 432.326)
+ColorProp = Color(0.173811, 0.476341, 0.404367, 1)
+CurveProp = SubResource("Curve_d1opl")
+
+[sub_resource type="Curve" id="Curve_fxoq6"]
+
+[sub_resource type="Resource" id="Resource_p2o55"]
+script = ExtResource("1_7d4ee")
+IntProp = 1918300627
+FloatProp = 0.357166
 BoolProp = false
-StringProp = ""
-Vector2Prop = Vector2(0, 0)
-ColorProp = Color(0, 0, 0, 0)
+StringProp = "134cffaa-49b9-4f09-ade7-13622f657722"
+Vector2Prop = Vector2(567.746, 254.299)
+ColorProp = Color(0.506781, 0.539241, 0.189596, 1)
+CurveProp = SubResource("Curve_fxoq6")
+
+[sub_resource type="Curve" id="Curve_0yp5p"]
+
+[sub_resource type="Resource" id="Resource_0dsho"]
+script = ExtResource("1_7d4ee")
+IntProp = 929498374
+FloatProp = 0.736774
+BoolProp = false
+StringProp = "ad23e9eb-d018-473b-9368-eaca61d0715c"
+Vector2Prop = Vector2(690.788, 339.302)
+ColorProp = Color(0.136306, 0.928631, 0.212748, 1)
+CurveProp = SubResource("Curve_0yp5p")
+
+[sub_resource type="Curve" id="Curve_alymd"]
+
+[sub_resource type="Resource" id="Resource_8tp8m"]
+script = ExtResource("1_7d4ee")
+IntProp = 932174941
+FloatProp = 0.185526
+BoolProp = false
+StringProp = "bc878d99-372e-4cc9-9459-02cc35803380"
+Vector2Prop = Vector2(849.348, 494.653)
+ColorProp = Color(0.178424, 0.488636, 0.429863, 1)
+CurveProp = SubResource("Curve_alymd")
 
 [resource]
 script = ExtResource("2_c0sdb")
-Data = [SubResource("Resource_mk6no"), SubResource("Resource_474kx"), SubResource("Resource_3cb84")]
+Data = [SubResource("Resource_8l2cn"), SubResource("Resource_h5crk"), SubResource("Resource_p2o55"), SubResource("Resource_0dsho"), SubResource("Resource_8tp8m")]

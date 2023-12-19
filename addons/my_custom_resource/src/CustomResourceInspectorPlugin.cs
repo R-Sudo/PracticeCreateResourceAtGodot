@@ -47,7 +47,7 @@ public partial class CustomResourceInspectorPlugin : EditorInspectorPlugin
                 FloatProp = GD.Randf(),
                 BoolProp = GD.Randi() % 2 == 0,
                 StringProp = Guid.NewGuid().ToString(),
-                Vector2Prop = new Vector2(GD.Randf(), GD.Randf()),
+                Vector2Prop = new Vector2((float)GD.RandRange(500.0f, 1000.0f), (float)GD.RandRange(250.0f, 500.0f)),
                 ColorProp = new Color(GD.Randf(), GD.Randf(), GD.Randf()),
                 CurveProp = new Curve()
             };
