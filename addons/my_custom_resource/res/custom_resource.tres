@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="CustomResource" load_steps=3 format=3 uid="uid://b71e8rr2gm5af"]
+
+[ext_resource type="Script" path="res://addons/my_custom_resource/src/CustomResource.cs" id="1_60od2"]
+
+[sub_resource type="Curve" id="Curve_u8tgr"]
+_data = [Vector2(0.153465, 0.263736), 0.0, 0.0, 0, 0, Vector2(0.267327, 0.032967), 0.0, 0.0, 0, 0, Vector2(0.485149, 0.681319), 0.0, 0.0, 0, 0, Vector2(0.811881, 1), 0.0, 0.0, 0, 0]
+point_count = 4
+
+[resource]
+script = ExtResource("1_60od2")
+IntProp = 0
+FloatProp = 0.0
+BoolProp = false
+StringProp = ""
+Vector2Prop = Vector2(0, 0)
+ColorProp = Color(0, 0, 0, 0)
+CurveProp = SubResource("Curve_u8tgr")

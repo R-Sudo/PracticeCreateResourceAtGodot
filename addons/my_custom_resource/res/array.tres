@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="CustomResourceArray" load_steps=6 format=3 uid="uid://cub3vwtj55307"]
+
+[ext_resource type="Script" path="res://addons/my_custom_resource/src/CustomResource.cs" id="1_7d4ee"]
+[ext_resource type="Script" path="res://addons/my_custom_resource/src/CustomResourceArray.cs" id="2_c0sdb"]
+
+[sub_resource type="Resource" id="Resource_mk6no"]
+script = ExtResource("1_7d4ee")
+IntProp = 0
+FloatProp = 0.0
+BoolProp = false
+StringProp = ""
+Vector2Prop = Vector2(0, 0)
+ColorProp = Color(0, 0, 0, 0)
+
+[sub_resource type="Resource" id="Resource_474kx"]
+script = ExtResource("1_7d4ee")
+IntProp = 0
+FloatProp = 0.0
+BoolProp = false
+StringProp = ""
+Vector2Prop = Vector2(0, 0)
+ColorProp = Color(0, 0, 0, 0)
+
+[sub_resource type="Resource" id="Resource_3cb84"]
+script = ExtResource("1_7d4ee")
+IntProp = 0
+FloatProp = 0.0
+BoolProp = false
+StringProp = ""
+Vector2Prop = Vector2(0, 0)
+ColorProp = Color(0, 0, 0, 0)
+
+[resource]
+script = ExtResource("2_c0sdb")
+Data = [SubResource("Resource_mk6no"), SubResource("Resource_474kx"), SubResource("Resource_3cb84")]

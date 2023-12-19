@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="BadCustomResource" load_steps=2 format=3 uid="uid://cychowneq0eug"]
+
+[ext_resource type="Script" path="res://addons/my_custom_resource/src/BadCustomResource.cs" id="1_kf0m3"]
+
+[resource]
+script = ExtResource("1_kf0m3")
+IntProp = 0
+FloatProp = 0.0
+BoolProp = false
+StringProp = ""
+Vector2Prop = Vector2(0, 0)
+ColorProp = Color(0, 0, 0, 0)
