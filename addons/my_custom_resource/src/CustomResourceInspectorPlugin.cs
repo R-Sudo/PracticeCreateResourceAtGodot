@@ -7,7 +7,7 @@ namespace PracticeCreateResourceAtGodot;
 
 public partial class CustomResourceInspectorPlugin : EditorInspectorPlugin
 {
-    private CustomResourceArray _target;
+    private CustomResourceArray target;
 
     public override bool _CanHandle(GodotObject @object)
     {
@@ -21,7 +21,7 @@ public partial class CustomResourceInspectorPlugin : EditorInspectorPlugin
     public override void _ParseBegin(GodotObject @object)
     {
         // NOTE: _CanHandle で CustomResourceArray 型のみ有効にしてるので直接キャスト
-        _target = (CustomResourceArray)@object;
+        target = (CustomResourceArray)@object;
 
         CreateCustomInspector();
     }
@@ -55,10 +55,10 @@ public partial class CustomResourceInspectorPlugin : EditorInspectorPlugin
             list.Add(resource);
         }
 
-        _target.Data = list.ToArray();
+        target.Data = list.ToArray();
         
         // NOTE: リソースの値が変わった変更通知を投げる必要がある
-        _target.EmitChanged();
+        target.EmitChanged();
     }
 }
 #endif
